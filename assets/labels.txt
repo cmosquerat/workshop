@@ -1,2 +1,4 @@
-0 Class 1
-1 Class 2
+0 Albatros
+1 Cardenal
+2 Mascarita
+3 Pelícano
