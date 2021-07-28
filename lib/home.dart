@@ -76,7 +76,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Clean OR Messy"),
+        title: Text("Proyecto Workshop"),
       ),
       body: Container(
         padding: EdgeInsets.only(left: 10, right: 10),
@@ -90,7 +90,7 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  _GroupText('Choose source:'),
+                  _GroupText('Fuente:'),
                   ButtonBar(
                     alignment: MainAxisAlignment.center,
                     buttonMinWidth: 150,
@@ -99,12 +99,12 @@ class _HomeState extends State<Home> {
                     children: <Widget>[
                       RaisedButton(
                         onPressed: pickImage,
-                        child: Text('Cam'),
+                        child: Text('Cámara'),
                       ),
                       SizedBox(width: 20),
                       RaisedButton(
                         onPressed: pickGalleryImage,
-                        child: Text('Gallery'),
+                        child: Text('Galería'),
                       ),
                     ],
                   )
